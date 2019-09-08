@@ -1,0 +1,20 @@
+.title-wrapper {
+text-align : center
+}
+.footer-wrapper {
+text-align : center
+}
+
+.title {
+
+display :inline-block
+}
+
+.footer{
+
+display :inline-block
+}
+
+body {
+  /* white-space: pre-wrap; */
+}

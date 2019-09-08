@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ORDINARY LIFE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+      <link rel="stylesheet" href="main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.flex-photo-gallery.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.flex-photo-gallery.css"/>
+
+
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-1358481975251539",
+      enable_page_level_ads: true
+    });
+  </script>
+
+  <script>
+
+  var images =
+	[
+		{
+			"url" : "cat/cat1.jpg",
+			"width" : 480,
+			"height" : 853
+		},
+		{
+			"url" : "cat/cat2.jpg",
+			"width" : 480,
+			"height" : 640
+		},
+    {
+      "url" : "cat/cat3.jpg",
+      "width" : 853,
+      "height" : 480
+    },
+
+    
+
+
+	];
+  </script>
+
+<!--
+  <script>
+      var frame = document.getElementById('viewer');
+          frame.onload = function () {
+              // var body = frame.contentWindow.document.querySelector('body');
+              var body = frame.contentWindow.document.querySelector('body');
+              body.style.white_space = "pre";
+              body.style.color = 'red';
+              body.style.fontSize = '20px';
+              // body.style.lineHeight = '20px';
+          };
+      </script> -->
+
+</head>
+<body>
+
+<div class="container-fluid">
+ <div class="title-wrapper">
+     <h1 CLASS="title">ORDINARY LIFE</h1>
+ </div>
+</div>
+
+<div id="gallery"></div>
+
+<script>
+$('#gallery').flexPhotoGallery({
+		imageArray: images,
+		isViewImageOnClick: true
+	});
+</script>
+
+    <div class="container-fluid">
+     <div class="footer-wrapper">
+         <h6 CLASS="footer">2019, Created By WINDNUMlabs, all rights reserved.</h6>
+     </div>
+    </div>
+
+</body>
+</html>
